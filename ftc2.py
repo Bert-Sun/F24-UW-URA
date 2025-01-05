@@ -62,7 +62,7 @@ class node:
             if p_edge not in self.parents[parent]:
                 self.parents[parent].append(p_edge)
         else: self.parents[parent] = [p_edge]
-~
+
     def add_child(self, child, c_edge):
         if self.children.get(child):
             # append edge if only not already in child list
